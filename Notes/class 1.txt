@@ -1,0 +1,5 @@
+why programmiing languages?
+difference b/w interpreted and complied language?
+JS single thereaded language. what is cluster module?(to make child processes)
+basic JS constructs( variables, array, objects)
+
