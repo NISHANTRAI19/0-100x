@@ -1,0 +1,28 @@
+ECMAscript- specification/guideline on which JS is based (standard for JS)
+
+JS- implementation of ECMAs, additional feature DOM.
+	compiler v8-google
+		 spidermonkey- firefox
+Node- runtime for JS to run withouth browser( took v8 from chrome and added bunch of features like creating servers, reading files)
+
+Bun- faster than node.js
+
+----------------------------------------------------------------------
+what can we do with node.js?
+	create clis
+	create a video player
+	crreate a game
+	###create an HTTP server
+-------------------------------------------------------------------------
+what is an Http server?
+a protocol for machines to communicate.
+frontend to backend communication
+  
+------------------------------------------------
+Express basics - hello world, use of functions provided by express get and listen.
+------------------------------------------------------------------------------------------
+
+offline classes
+##############################################################
+
+Bash basics

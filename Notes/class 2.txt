@@ -1,0 +1,5 @@
+what are Callbacks?
+what is async? why do we need it?
+call back nesting
+call back hell
+history of async programming in js ->CB->promise
