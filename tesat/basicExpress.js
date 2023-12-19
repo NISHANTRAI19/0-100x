@@ -1,18 +1,42 @@
-const express= require("express");
+const users=[{
+    name:"bear",
+    kidneys:[
+        {
+        healthy:false},
+        {
+            healthy:true}
+        ],
 
-
-function square(n){
-    return n*n;
-
-}
-
+    }]
+const express =require("express");
 const app=express();
 
-app.get('/',function (req,res){
-    const number= req.query.n;
-    res.send(square(number).toString());
+app.get("/",(req,res)=>{
+    const bearKidneys=users[0].kidneys;
+    const healthyKidneys= bearKidneys.filter(elem=>elem.healthy==true);
+    const totalNoOfHealthyKidneys=bearKidneys.length-healthyKidneys.length;
+
+    const totalNoOfKidneys=bearKidneys.length;
+     
+    res.json({
+        totalNoOfHealthyKidneys,
+        totalNoOfKidneys,
+        numberOfUnhealthyKidneys:totalNoOfKidneys-totalNoOfHealthyKidneys,
+
+        
+    })
 })
 
-app.listen(3000,function(){
-console.log("running on 30000");
+app.post("/",(req,res)=>{
+
 })
+
+app.put("/",(req,res)=>{
+
+})
+
+app.delete("/",(req,res)=>{
+
+})
+
+app.listen(3000,()=>console.log("runninng"));

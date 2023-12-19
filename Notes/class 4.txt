@@ -1,0 +1,9 @@
+Express advance
+
+Middleware: comes between route and final handler function (to vaildate etc)
+
+app.get(("/path"), cb1(req,res){
+next() //express feature
+}, cb2, next)
+---------------------------------
+app.use()
