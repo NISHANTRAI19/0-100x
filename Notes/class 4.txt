@@ -21,3 +21,7 @@ let's suppose user sends a different form of data, it will crash the server migh
 ZOD
 
 JS library to validate data
+
+import Zod
+create schema
+safeParse schema based on input and store in response
