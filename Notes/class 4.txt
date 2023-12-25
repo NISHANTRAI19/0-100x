@@ -6,4 +6,18 @@ app.get(("/path"), cb1(req,res){
 next() //express feature
 }, cb2, next)
 ---------------------------------
-app.use()
+app.use() -> is called automatically for all the requests after it.
+
+app.use(express.json()) to read the post body, because we don't know what body, it could be json, text etc.
+
+
+Global catches: error handling middleware
+app.use((err,req,res,next)=>{res.json({msg:"server down"})} it will catch it all the global errors
+---------------------------------------
+input validation
+
+let's suppose user sends a different form of data, it will crash the server might exposing the error to user and can lead to hacking.
+
+ZOD
+
+JS library to validate data
