@@ -13,3 +13,7 @@ Json web tokens-JWT
 JWT can be decoded by anyone but can be verified by only the legitimate server
 
 JWT token structure- <header><payload><signature>
+
+JWT .verify throws an error when given wrong token
+====================================================================
+MongoDB
