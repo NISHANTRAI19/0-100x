@@ -1,0 +1,15 @@
+fetch()
+api given by browser to connect to some other api
+===================================================================
+Hashing
+converting password to some gibberish so that even if db is breached password is not exposed
+Hashing is one way that means it cannot be convetred back, where as encryption is two ways,
+
+eg passwords are hashed, pics are encrypted in fb.
+===================================================================
+
+Json web tokens-JWT
+
+JWT can be decoded by anyone but can be verified by only the legitimate server
+
+JWT token structure- <header><payload><signature>
