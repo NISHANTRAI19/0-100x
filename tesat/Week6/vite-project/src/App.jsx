@@ -5,7 +5,6 @@ import Todo from './component/Todo'
 
 function App() {
   
-  const [todo,setTodo]=useState([{
     id:1,
     title: "Go TO GYM",
     description:"Consistency"
